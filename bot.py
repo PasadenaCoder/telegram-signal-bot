@@ -8,7 +8,7 @@ from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 from telegram.constants import ParseMode
 
-BOT_TOKEN = os.getenv("8764201347:AAHAY18NHZUFveNcDBDWk0jjxJsytq4s2XY")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 WEBHOOK_PATH = "/telegram"
 PORT = int(os.getenv("PORT", 10000))
 
